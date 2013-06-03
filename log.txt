@@ -1,0 +1,35 @@
+7mile99RQ.xls,object,what,0,,12
+7mile99RQ.xls,object,what,1,,12
+7mile99RQ.xls,object,what,2,,12
+7mile99RQ.xls,object,what,4,,12
+7mile99RQ.xls,object,what,8,,12
+7mile99RQt.xls,object,what,0,,0
+7mile99RQt.xls,object,what,1,,0
+7mile99RQt.xls,object,what,2,,0
+7mile99RQt.xls,object,what,4,,0
+7mile99RQt.xls,object,what,8,,0
+=11s0891 (3rd copy).xls,object,what,0,,0
+=11s0891 (3rd copy).xls,object,what,1,,0
+=11s0891 (3rd copy).xls,object,what,2,,0
+=11s0891 (3rd copy).xls,object,what,4,,0
+=11s0891 (3rd copy).xls,object,what,8,,0
+=11s0891 (another copy).xls,object,what,0,,0
+=11s0891 (another copy).xls,object,what,1,,0
+=11s0891 (another copy).xls,object,what,2,,0
+=11s0891 (another copy).xls,object,what,4,,0
+=11s0891 (another copy).xls,object,what,8,,0
+=11s0891 (copy).xls,object,what,0,,0
+=11s0891 (copy).xls,object,what,1,,0
+=11s0891 (copy).xls,object,what,2,,0
+=11s0891 (copy).xls,object,what,4,,0
+=11s0891 (copy).xls,object,what,8,,0
+=11s0891.xls,object,what,0,,0
+=11s0891.xls,object,what,1,,0
+=11s0891.xls,object,what,2,,0
+=11s0891.xls,object,what,4,,0
+=11s0891.xls,object,what,8,,0
+==========
+Number of spreadsheets: 11
+Recognized: 6, 54%
+Not Recognized: 5, 45%
+==========
