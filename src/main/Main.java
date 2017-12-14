@@ -10,10 +10,10 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		
-		SpreadsheetOperateService operate = new SpreadsheetOperateService();
-		//List<CategoryPOJO> lstSpreadsheetCategory = operate.classifySpreadsheets(); 
+		SpreadsheetOperateService operate = new SpreadsheetOperateService(); 
 			
 		operate.classifySpreadsheets();
 		
 	}
 }
+ 
