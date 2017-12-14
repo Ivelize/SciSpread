@@ -8,6 +8,7 @@ public class SpreadsheetPOJO {
 	private Integer page;
 	private String content;
 	private String name;
+	private Integer numColunm;
 	
 	public Integer getCell() {
 		return cell;
@@ -47,6 +48,14 @@ public class SpreadsheetPOJO {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+
+	public Integer getNumColunm() {
+		return numColunm;
+	}
+
+	public void setNumColunm(Integer numColunm) {
+		this.numColunm = numColunm;
 	}
 	
 }

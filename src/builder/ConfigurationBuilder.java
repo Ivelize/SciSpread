@@ -22,8 +22,8 @@ public class ConfigurationBuilder extends AbstractBuilder {
 			configurationAttribute.put(splitContentWeight[0], configurationSystem.get(cell));
 			ConfigurationPOJO confContent = new ConfigurationPOJO();
 			confContent.setConfigurationType(configurationSystem.get(cell));
+			confContent.setContent(splitContentWeight[0]);
 			if (splitContentWeight.length > 1){
-				confContent.setContent(splitContentWeight[0]);
 				confContent.setWeight(splitContentWeight[1]);
 			}
 			configurationLst.add(confContent);

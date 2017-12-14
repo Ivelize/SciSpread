@@ -3,7 +3,7 @@ package pojo;
 public class CategoryPOJO {
 	
 	private String categoryType;
-	private Integer occurrenceNumber;
+	private Float occurrenceNumber;
 	private String spreadsheetName;
 	private Float percScheme;
 	private Integer rowScheme;
@@ -16,11 +16,11 @@ public class CategoryPOJO {
 		this.categoryType = categoryType;
 	}
 	
-	public Integer getOccurrenceNumber() {
+	public Float getOccurrenceNumber() {
 		return occurrenceNumber;
 	}
 	
-	public void setOccurrenceNumber(Integer occurrenceNumber) {
+	public void setOccurrenceNumber(Float occurrenceNumber) {
 		this.occurrenceNumber = occurrenceNumber;
 	}
 

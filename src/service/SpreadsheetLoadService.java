@@ -1,5 +1,9 @@
 package service;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -46,7 +50,30 @@ public class SpreadsheetLoadService {
             	XLSReader reader = new XLSReader(directoryPath);
 				reader.build(spreadsheetBuilder);
 			} catch (Exception e) {
-				System.out.println("erro");
+				System.out.println("Erro XLS: " + e);
+			}
+		}else if (spreadsheetName.endsWith("csv")){
+			
+			BufferedReader reader;
+			try {
+				reader = new BufferedReader(new FileReader(directoryPath));
+					
+				String[] listCSVSchema = reader.readLine().trim().split(",");
+				ArrayList<SpreadsheetPOJO> spreadLst = new ArrayList<SpreadsheetPOJO>();
+				
+				for (int i = 0; i < listCSVSchema.length; i++) {
+					SpreadsheetPOJO spreadContent = new SpreadsheetPOJO();
+					spreadContent.setCell(i);
+					spreadContent.setContent(listCSVSchema[i].replaceAll("[^a-zA-Z]", "").toLowerCase().trim());
+					spreadContent.setPage(0);
+					spreadContent.setRow(0);
+					spreadLst.add(spreadContent);
+				}
+			
+				return spreadLst;
+
+			} catch (Exception e) {
+				System.out.println("Erro CSV: " + e);
 			}
 		}
 		
